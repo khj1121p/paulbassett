@@ -328,7 +328,7 @@
     margin-bottom: 40px;
 }
 .sec-3 .part2 p{
-    padding-right: 16px;
+    padding-right: 32px;
 }
 .sec-3 .part3{
     width: 42.4vw;
@@ -623,6 +623,9 @@
     }
 }
 @media (max-width: 1500px){
+    .sec-3 .part2 p{
+        padding-right: 128px;
+    }
     .sec-3 .part1{
         margin-bottom: 16px;
     }
@@ -802,9 +805,13 @@
     .sec-3 .part1,
     .sec-3 .part2{
         padding-left: 32px;
+        padding-right: 32px;
     }
     .sec-3 .contribution1{
         display: none;
+    }
+    .sec-3 .part2 p{
+        padding-right: 32px;
     }
     .sec-4
     .sec-5 .container{
@@ -1005,7 +1012,10 @@
     }
     .sec-3 p{
         font-size: 0.8rem;
-        width: 84vw;
+        /* width: 84vw; */
+    }
+    .sec-3 .part2 p{
+        padding-right: 0;
     }
     .sec-3 .part3{
         height: 260px;
@@ -1107,7 +1117,7 @@
         height: 32px;
         font-size: 0.75rem;
     }
-        .sec-4 .comment,
+    .sec-4 .comment,
     .sec-5-left .event-box,
     .sec-5-right .connect{
         font-size: 0.875rem;
@@ -1115,9 +1125,16 @@
     .sec-5-right .connect{
         height: 108px;
     }
-        .footer .charge{
+    .footer .btn-box .btn{
         font-size: 0.75rem;
-        margin-bottom: 26px;
+        padding: 8px 12px;
+    }
+    .footer .btn-box .btn:nth-child(1){
+        margin-right: 40px;
+    }
+    .footer .charge{
+        font-size: 0.75rem;
+        margin-bottom: 20px;
     }
     .footer .btn-box .btn,
     .footer .address,
