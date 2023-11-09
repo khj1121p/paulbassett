@@ -1106,6 +1106,15 @@
     .sec-5-right .connect{
         height: 108px;
     }
+        .footer .charge{
+        font-size: 0.75rem;
+        margin-bottom: 26px;
+    }
+    .footer .btn-box .btn,
+    .footer .address,
+    .footer .copyright{
+        font-size: 0.75rem;
+    }
     .sec-2 .left,
     .sec-2 .right,
     .sec-3 .part1, .sec-3 .part2,
@@ -1125,13 +1134,5 @@
     .sec-5-right .connect{
         font-size: 0.75rem;
     }
-    .footer .charge{
-        font-size: 0.75rem;
-        margin-bottom: 26px;
-    }
-    .footer .btn-box .btn,
-    .footer .address,
-    .footer .copyright{
-        font-size: 0.75rem;
-    }
+
 }
