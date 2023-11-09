@@ -701,7 +701,8 @@
         transform: rotate(-135deg);
     }
     .m-menu{
-        padding: 132px;
+        padding-top: 132px;
+        padding-bottom: 132px;
         position: fixed;
         width: 100%;
         height: 100%;
@@ -950,6 +951,7 @@
     }
     .sec-5-right .connect{
         width: 100%;
+        height: 200px;
         margin-right: 0;
     }
     .sec-5-right .connect.new{
@@ -978,9 +980,9 @@
     .sec-2 .container{
         padding-bottom: 100px;
     }
-    .menuSwiper .swiper-wrapper{
+    /* .menuSwiper .swiper-wrapper{
         margin-bottom: 20px;
-    }
+    } */
     .menuSwiper .swiper-wrapper .swiper-slide{
         height: 300px;
     }
@@ -1027,6 +1029,10 @@
     }
     .footer .btn-box{
         justify-content: initial;
+    }
+    .footer span{
+        margin-top: 24px;
+        margin-bottom: 36px;
     }
     .footer .address{
         font-size: 0.875rem;
@@ -1097,6 +1103,9 @@
         height: 32px;
         font-size: 0.75rem;
     }
+    .sec-5-right .connect{
+        height: 108px;
+    }
     .sec-2 .left,
     .sec-2 .right,
     .sec-3 .part1, .sec-3 .part2,
@@ -1110,5 +1119,19 @@
 @media (max-width: 375px){
     .bannerSwiper .text{
         width: 165px;
+    }
+    .sec-4 .comment,
+    .sec-5-left .event-box,
+    .sec-5-right .connect{
+        font-size: 0.75rem;
+    }
+    .footer .charge{
+        font-size: 0.75rem;
+        margin-bottom: 26px;
+    }
+    .footer .btn-box .btn,
+    .footer .address,
+    .footer .copyright{
+        font-size: 0.75rem;
     }
 }
