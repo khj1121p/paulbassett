@@ -1103,6 +1103,11 @@
         height: 32px;
         font-size: 0.75rem;
     }
+        .sec-4 .comment,
+    .sec-5-left .event-box,
+    .sec-5-right .connect{
+        font-size: 0.75rem;
+    }
     .sec-5-right .connect{
         height: 108px;
     }
@@ -1129,10 +1134,4 @@
     .bannerSwiper .text{
         width: 165px;
     }
-    .sec-4 .comment,
-    .sec-5-left .event-box,
-    .sec-5-right .connect{
-        font-size: 0.75rem;
-    }
-
 }
