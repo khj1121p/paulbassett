@@ -1026,6 +1026,7 @@
     }
     .sec-4 .title,
     .sec-5-left .title{
+        text-align: center;
         font-size: 2.4rem;
         border-top: 1px solid #c8bfb9;
         border-bottom: 1px solid #c8bfb9;
