@@ -1067,10 +1067,10 @@
         height: 150px;
     }
     .sec-1 .brand-pr{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .sec-1 p{
-        font-size: 0.75rem;
+        font-size: 0.875rem;
     }
     .sec-1 .sec-1-img{
         height: 375px;
@@ -1097,7 +1097,7 @@
         height: 192px;
     }
     .sec-4 .store-box .store p{
-        font-size: 0.75rem;
+        font-size: 0.875rem;
     }
     .sec-4 .store-box .store{
         height: 212px;
@@ -1110,7 +1110,7 @@
         .sec-4 .comment,
     .sec-5-left .event-box,
     .sec-5-right .connect{
-        font-size: 0.75rem;
+        font-size: 0.875rem;
     }
     .sec-5-right .connect{
         height: 108px;
