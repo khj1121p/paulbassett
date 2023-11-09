@@ -914,6 +914,10 @@
     .bannerSwiper .text{
         width: 300px;
     }
+    .bannerSwiper .btn{
+        width: 120px;
+        height: 36px;
+    }
     .sec-1 .brand-pr{
         font-size: 2rem;
     }
