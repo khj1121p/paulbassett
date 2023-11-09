@@ -1097,6 +1097,12 @@
     .sec-2 .right .menu p{
         font-size: 0.875rem;
     }
+    .menuSwiper .swiper-wrapper .swiper-slide{
+        width: calc(50% - 12px);
+        height: 200px;
+        margin-right: 12px;
+        margin-bottom: 12px;
+    }
     .sec-3 .title{
         font-size: 1.75rem;
     }
